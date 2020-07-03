@@ -1,8 +1,27 @@
 module uim.adminlte.components.timelines.timeline;
 
-/* import uim.adminlte;
+import uim.adminlte;
 
-string css = `.timeline {
+class DBS4Timeline : DBS4Obj {
+	mixin(H5This!("Div", ["timeline"], null));
+
+  mixin(MyContent!("item", "BS4TimelineItem"));
+  unittest {
+    assert(Assert(BS4Timeline.item,`<div class="timeline"><div class="timeline-item"></div></div>`));  
+  }
+
+  mixin(MyContent!("label", "BS4TimelineLabel"));
+  unittest {
+    assert(Assert(BS4Timeline.label,`<div class="timeline"><div class="time-label"></div></div>`));  
+  }
+}
+mixin(H5Calls!"BS4Timeline");
+
+unittest {
+ 	assert(Assert(BS4Timeline,`<div class="timeline"></div>`));
+}
+
+/* string css = `.timeline {
   margin: 0 0 45px;
   padding: 0;
   position: relative;

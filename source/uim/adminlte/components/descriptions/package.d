@@ -2,6 +2,9 @@ module uim.adminlte.components.descriptions;
 
 import uim.bootstrap;
 
+public import uim.adminlte.components.descriptions.description;
+public import uim.adminlte.components.descriptions.descriptions;
+
 class DBS4DescriptionBlock : DBS4Obj {
 	mixin(H5This!("Div", ["description-block"], null));
 

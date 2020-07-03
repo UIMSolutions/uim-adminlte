@@ -2,6 +2,14 @@ module uim.adminlte.components.mailboxes;
 
 import uim.adminlte;
 
+public import uim.adminlte.components.mailboxes.message;
+public import uim.adminlte.components.mailboxes.messages;
+
+class DBS4MailboxCheck : DBS4Obj {
+	mixin(H5This!("TD", null, null));
+}
+mixin(H5Calls!"BS4MailboxCheck");
+
 class DBS4MailboxStar : DBS4Obj {
 	mixin(H5This!("TD", ["mailbox-star"]));
 }

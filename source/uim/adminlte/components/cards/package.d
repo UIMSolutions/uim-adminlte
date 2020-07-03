@@ -14,12 +14,12 @@ class DBS4CardTools : DBS4Obj {
     assert(Assert(BS4CardTools.link,`<div class="card-tools"><a class="btn" type="button"></a></div>`));
   }
 
-	O collapse(this O)(){ return this.content(BS4Button(["btn-tool"], ["data-card-widget":"collapse"], FA("minus"))); }
+	O collapse(this O)(){ return this.content(BS4Button(["btn-tool"], ["data-card-widget":"collapse", "data-toggle":"tooltip", "title":"Collapse"], FA("minus"))); }
 	unittest {
     assert(Assert(BS4CardTools.collapse,`<div class="card-tools"><button class="btn btn-tool" data-card-widget="collapse" type="button"><i class="fa fa-minus"></i></button></div>`));
   }
 
-  O remove(this O)(){ return this.content(BS4Button(["btn-tool"], ["data-card-widget":"remove"], FA("remove"))); }
+  O remove(this O)(){ return this.content(BS4Button(["btn-tool"], ["data-card-widget":"remove", "data-toggle":"tooltip", "title":"Remove"], FA("remove"))); }
   unittest {
     assert(Assert(BS4CardTools.remove,`<div class="card-tools"><button class="btn btn-tool" data-card-widget="remove" type="button"><i class="fa fa-remove"></i></button></div>`));
   }

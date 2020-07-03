@@ -2,6 +2,10 @@ module uim.adminlte.components.products;
 
 import uim.adminlte;
 
+public import uim.adminlte.components.products.imagethumb;
+public import uim.adminlte.components.products.imagethumbs;
+public import uim.adminlte.components.products.share;
+
 class DBS4ProductTab : DBS4NavTabs {
 	mixin(H5This!(null, null, null));
 

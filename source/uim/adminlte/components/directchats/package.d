@@ -2,14 +2,9 @@ module uim.adminlte.components.directchats;
 
 import uim.adminlte;
 
-class DBS4DirectchatMessage : DBS4Obj {
-	mixin(H5This!("Div", ["direct-chat-msg"], null));
+public import uim.adminlte.components.directchats.directchat;
+public import uim.adminlte.components.directchats.message;
 
-  mixin(MyContent!("infos", "BS4DirectchatInfos"));
-  mixin(MyContent!("image", "BS4DirectchatImage"));
-  mixin(MyContent!("text", "BS4DirectchatText"));
-}
-mixin(H5Calls!("BS4DirectchatMessage", "DBS4DirectchatMessage"));
 
 class DBS4DirectchatInfos : DBS4Obj {
 	mixin(H5This!("Div", ["direct-chat-infos"]));

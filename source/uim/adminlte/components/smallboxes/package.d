@@ -2,16 +2,21 @@ module uim.adminlte.components.smallboxes;
 
 public import uim.adminlte.components.smallboxes.smallbox;
 public import uim.adminlte.components.smallboxes.footer;
+public import uim.adminlte.components.smallboxes.icon;
+public import uim.adminlte.components.smallboxes.inner;
 
 /* Beispiel
-H5Div(["small-box bg-success"], 
-    H5Div(["inner"], 
-      H5H3("53<sup "style":"font-size: 20px"],%</sup>"),
-      H5P("Bounce Rate")
-    ),
-    H5Div(["icon"], <i ["ion ion-stats-bars"]))
-    H5A(["small-box-footer"],
-      More info H5I(["fa", "fa-arrow-circle-right"])
-    )
-  )
+<div class="small-box bg-info">
+  <div class="inner">
+    <h3>150</h3>
+
+    <p>New Orders</p>
+  </div>
+  <div class="icon">
+    <i class="fas fa-shopping-cart"></i>
+  </div>
+  <a href="#" class="small-box-footer">
+    More info <i class="fas fa-arrow-circle-right"></i>
+  </a>
+</div>
 */
