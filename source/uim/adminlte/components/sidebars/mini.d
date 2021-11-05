@@ -1,8 +1,10 @@
 module uim.adminlte.components.sidebars.mini;
 
+@safe:
 import uim.adminlte;
 
-/*import uim.adminlte;
+/*@safe:
+import uim.adminlte;
 
 string css = `@media (min-width: 992px) {
   .sidebar-mini .nav-sidebar,

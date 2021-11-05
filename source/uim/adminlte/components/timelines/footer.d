@@ -1,5 +1,6 @@
 module uim.adminlte.components.timelines.footer;
 
+@safe:
 import uim.adminlte;
 
 class DBS4TimelineFooter : DBS4Obj {

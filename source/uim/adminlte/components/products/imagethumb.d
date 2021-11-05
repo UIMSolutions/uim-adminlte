@@ -1,5 +1,6 @@
 module uim.adminlte.components.products.imagethumb;
 
+@safe:
 import uim.adminlte;
 
 class DBS4ProductImageThumb : DBS4Obj {

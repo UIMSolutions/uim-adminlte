@@ -1,5 +1,6 @@
 module uim.adminlte.components.sidebars.nav;
 
+@safe:
 import uim.adminlte;
 
 class DBS4Sidebar : DBS4NavPills {

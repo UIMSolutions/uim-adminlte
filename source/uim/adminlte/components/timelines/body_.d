@@ -1,5 +1,6 @@
 module uim.adminlte.components.timelines.body_;
 
+@safe:
 import uim.adminlte;
 
 class DBS4TimelineBody : DBS4Obj {

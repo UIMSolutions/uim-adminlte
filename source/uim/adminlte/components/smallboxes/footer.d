@@ -1,5 +1,6 @@
 module uim.adminlte.components.smallboxes.footer;
 
+@safe:
 import uim.adminlte;
 
 class DBS4SmallboxFooter : DBS4Obj {

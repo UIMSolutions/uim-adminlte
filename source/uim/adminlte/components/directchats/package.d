@@ -1,5 +1,6 @@
 module uim.adminlte.components.directchats;
 
+@safe:
 import uim.adminlte;
 
 public import uim.adminlte.components.directchats.directchat;

@@ -1,5 +1,6 @@
 module uim.adminlte.components.smallboxes.icon;
 
+@safe:
 import uim.adminlte;
 
 class DBS4SmallboxIcon : DBS4Obj {

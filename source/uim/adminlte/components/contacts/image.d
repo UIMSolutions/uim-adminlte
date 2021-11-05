@@ -1,5 +1,6 @@
 module uim.adminlte.components.contacts.image;
 
+@safe:
 import uim.adminlte;
 
 class DBS4ContactsImage : DBS4Obj {

@@ -1,5 +1,6 @@
 module uim.adminlte.components.todolists;
 
+@safe:
 import uim.adminlte;
 
 public import uim.adminlte.components.todolists.todolist;

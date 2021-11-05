@@ -1,8 +1,10 @@
 module uim.adminlte.components.sidebars.collapse;
 
+@safe:
 import uim.adminlte;
 
-/* import uim.adminlte;
+/* @safe:
+import uim.adminlte;
 
 string css = `.sidebar-collapse .main-sidebar.sidebar-focused .nav-header,
 .sidebar-collapse .main-sidebar:hover .nav-header {

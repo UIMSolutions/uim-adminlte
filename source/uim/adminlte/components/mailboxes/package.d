@@ -1,5 +1,6 @@
 module uim.adminlte.components.mailboxes;
 
+@safe:
 import uim.adminlte;
 
 public import uim.adminlte.components.mailboxes.message;

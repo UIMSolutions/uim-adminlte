@@ -1,5 +1,6 @@
 module uim.adminlte.components.infoboxes.content;
 
+@safe:
 import uim.adminlte;
 
 class DBS4InfoboxContent : DBS4Obj {

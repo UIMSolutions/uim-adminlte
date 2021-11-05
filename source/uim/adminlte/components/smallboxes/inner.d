@@ -1,5 +1,6 @@
 module uim.adminlte.components.smallboxes.inner;
 
+@safe:
 import uim.adminlte;
 
 class DBS4SmallboxInner : DBS4Obj {

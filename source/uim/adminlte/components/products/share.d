@@ -1,5 +1,6 @@
 module uim.adminlte.components.products.share;
 
+@safe:
 import uim.adminlte;
 
 class DBS4ProductShare : DBS4Obj {

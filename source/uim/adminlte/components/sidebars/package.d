@@ -1,5 +1,6 @@
 module uim.adminlte.components.sidebars;
 
+@safe:
 import uim.adminlte;
 
 public import uim.adminlte.components.sidebars.collapse;

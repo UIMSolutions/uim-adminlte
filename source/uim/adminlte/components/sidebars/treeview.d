@@ -1,5 +1,6 @@
 module uim.adminlte.components.sidebars.treeview;
 
+@safe:
 import uim.adminlte;
 
 class DBS4NavTreeview : DBS4Nav {

@@ -1,5 +1,6 @@
 module uim.adminlte.components.timelines.label;
 
+@safe:
 import uim.adminlte;
 
 class DBS4TimelineLabel : DBS4Obj {

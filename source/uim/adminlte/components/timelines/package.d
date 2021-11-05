@@ -1,5 +1,6 @@
 module uim.adminlte.components.timelines;
 
+@safe:
 import uim.adminlte;
 
 public import uim.adminlte.components.timelines.body_;

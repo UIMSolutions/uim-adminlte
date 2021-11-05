@@ -1,5 +1,6 @@
 module uim.adminlte.components.contacts.item;
 
+@safe:
 import uim.adminlte;
 
 class DBS4ContactsItem : DBS4Obj {

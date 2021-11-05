@@ -1,5 +1,6 @@
 module uim.adminlte.components.mailboxes.messages;
 
+@safe:
 import uim.adminlte;
 
 class DBS4MailboxMessages : DBS4Obj {

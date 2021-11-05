@@ -1,5 +1,6 @@
 module uim.adminlte.components.products;
 
+@safe:
 import uim.adminlte;
 
 public import uim.adminlte.components.products.imagethumb;

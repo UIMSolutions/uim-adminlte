@@ -1,5 +1,6 @@
 module uim.adminlte.components.contacts;
 
+@safe:
 import uim.adminlte;
 
 public import uim.adminlte.components.contacts.image;

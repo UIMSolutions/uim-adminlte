@@ -1,5 +1,6 @@
 module uim.adminlte.components.directchats.message;
 
+@safe:
 import uim.adminlte;
 
 class DBS4DirectchatMessage : DBS4Obj {
