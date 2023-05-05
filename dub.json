@@ -1,0 +1,28 @@
+{
+	"name": "uim-adminlte",
+	"description": "Bootstrap Template AdminLte",
+	"authors": ["UI Manufaktur Team"],
+	"copyright": "Copyright © 2017-2022, UI Manufaktur UG",
+	"license": "Apache-2.0",
+	"targetType": "library",
+	"sourcePaths": [
+		"../uim-core",
+		"../uim-oop",
+		"../uim-css",
+		"../uim-html",
+		"../uim-javascript",
+		"../uim-json",
+		"../uim-bootstrap",
+		"./"
+	],
+	"importPaths": [
+		"../uim-core",
+		"../uim-oop",
+		"../uim-css",
+		"../uim-html",
+		"../uim-javascript",
+		"../uim-json",
+		"../uim-bootstrap",
+		"./"	
+	]
+}
