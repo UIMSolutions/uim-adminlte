@@ -8,7 +8,7 @@ public import uim.core;
 public import uim.oop;
 public import uim.css;
 public import uim.json;
-public import uim.javascript;
+public import langs.javascript;
 public import uim.html;
 public import uim.bootstrap;
 
