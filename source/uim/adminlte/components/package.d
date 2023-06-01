@@ -1,8 +1,5 @@
 module uim.adminlte.components;
 
-@safe:
-import uim.adminlte;
-
 public import uim.adminlte.components.attachments;
 public import uim.adminlte.components.cards;
 public import uim.adminlte.components.colors;
