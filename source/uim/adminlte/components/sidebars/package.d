@@ -1,10 +1,9 @@
 module uim.adminlte.components.sidebars;
 
-@safe:
-import uim.adminlte;
-
-public import uim.adminlte.components.sidebars.collapse;
-public import uim.adminlte.components.sidebars.mini;
-public import uim.adminlte.components.sidebars.nav;
-public import uim.adminlte.components.sidebars.sidebar;
-public import uim.adminlte.components.sidebars.treeview;
+public {
+  import uim.adminlte.components.sidebars.collapse;
+  import uim.adminlte.components.sidebars.mini;
+  import uim.adminlte.components.sidebars.nav;
+  import uim.adminlte.components.sidebars.sidebar;
+  import uim.adminlte.components.sidebars.treeview;
+}

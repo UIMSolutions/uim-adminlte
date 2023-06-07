@@ -1,10 +1,12 @@
 module uim.adminlte.components.infoboxes;
 
-public import uim.adminlte.components.infoboxes.content;
-public import uim.adminlte.components.infoboxes.infobox;
-public import uim.adminlte.components.infoboxes.icon;
-public import uim.adminlte.components.infoboxes.text;
-public import uim.adminlte.components.infoboxes.number;
+public {
+  import uim.adminlte.components.infoboxes.content;
+  import uim.adminlte.components.infoboxes.infobox;
+  import uim.adminlte.components.infoboxes.icon;
+  import uim.adminlte.components.infoboxes.text;
+  import uim.adminlte.components.infoboxes.number;
+}
 
 /*
 H5Div(["info-box bg-gradient-success"], 

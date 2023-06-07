@@ -1,8 +1,5 @@
 module uim.adminlte.components.timelines;
 
-@safe:
-import uim.adminlte;
-
 public import uim.adminlte.components.timelines.body_;
 public import uim.adminlte.components.timelines.footer;
 public import uim.adminlte.components.timelines.header;
